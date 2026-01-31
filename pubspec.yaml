@@ -1,0 +1,67 @@
+name: interview_task
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  stacked: ^3.4.0
+
+  # UI & Design
+  fluttertoast: ^9.0.0
+  shimmer: ^3.0.0
+
+  # Utils
+  package_info_plus: ^9.0.0
+  intl: ^0.20.2
+  connectivity_plus: ^7.0.0
+  flutter_screenutil: ^5.9.3
+  cached_network_image: ^3.4.1
+  path: ^1.9.0
+  flutter_styled_toast: ^2.2.1
+
+  #Session
+  shared_preferences: ^2.5.4
+
+  # Local DB
+  sqflite: ^2.3.0
+
+  vgts_plugin:
+    git:
+      url: https://github.com/santhoshvgts/vgts_plugin.git
+      ref: flutter-version-upgrade
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/gym_workout.png
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
